@@ -51,7 +51,7 @@ namespace Calculator
                 if (reg.Match(Display.Text).Length > 0) // get rid of zero after [*/+-%] and some more logic with the second number
                 {
 
-                    if (Display.Text[Display.Text.Length - 1] == '0')
+                    if (Display.Text[Display.Text.Length - 1] == '0' && Display.Text.Substring(Display.Text.LastIndexOf(' ') + 1).Length == 1)
                     {
                         Display.Text = Display.Text.Substring(0, Display.Text.Length - 1) + ((Button)sender).Content.ToString();
                     }
@@ -310,6 +310,7 @@ namespace Calculator
             }
             catch
             {
+                DisableAllButtons();
                 Display.Text = "Error!";
             }
         }
