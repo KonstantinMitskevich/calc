@@ -1,0 +1,58 @@
+﻿<Window x:Class="Calculator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid Name="Main">
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+
+        </Grid.ColumnDefinitions>
+        <TextBox Name="Display" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="5" TextAlignment="Right"></TextBox>
+
+        <Button Name="Sin" Grid.Column="0" Grid.Row="1" Content="sin" Click="ClickTrig"></Button>
+        <Button Name="Cos" Grid.Column="1" Grid.Row="1" Content="cos" Click="ClickTrig"></Button>
+        <Button Name="Tg" Grid.Column="2" Grid.Row="1" Content="tg" Click="ClickTrig"></Button>
+        <Button Name="DevideByOne" Grid.Column="3" Grid.Row="1" Content="1/x" Click="ClickOneDevideByX"></Button>
+
+        <Button Grid.Column="0" Grid.Row="3" Content="1" Click="ClickNumber"></Button>
+        <Button Grid.Column="1" Grid.Row="3" Content="2" Click="ClickNumber"></Button>
+        <Button Grid.Column="2" Grid.Row="3" Content="3" Click="ClickNumber"></Button>
+        <Button Name="Multiply" Grid.Column="3" Grid.Row="3" Content="x" Click="ClickAction"></Button>
+
+        <Button Grid.Column="0" Grid.Row="4" Content="4" Click="ClickNumber"></Button>
+        <Button Grid.Column="1" Grid.Row="4" Content="5" Click="ClickNumber"></Button>
+        <Button Grid.Column="2" Grid.Row="4" Content="6" Click="ClickNumber"></Button>
+        <Button Name="Min" Grid.Column="3" Grid.Row="4" Content="-" Click="ClickAction"></Button>
+
+        <Button Grid.Column="0" Grid.Row="5" Content="7" Click="ClickNumber"></Button>
+        <Button Grid.Column="1" Grid.Row="5" Content="8" Click="ClickNumber"></Button>
+        <Button Grid.Column="2" Grid.Row="5" Content="9" Click="ClickNumber"></Button>
+        <Button Name="Devide" Grid.Column="3" Grid.Row="5" Content="/" Click="ClickAction"></Button>
+
+        <Button Name ="Clean" Grid.Column="0" Grid.Row="6" Content="CE" Click="ClickCE"></Button>
+        <Button Grid.Column="1" Grid.Row="6" Content="0" Click="ClickNumber"></Button>
+        <Button Name="Comma" Grid.Column="2" Grid.Row="6" Content="," Click="ClickComma"></Button>
+        <Button Name="Plus" Grid.Column="3" Grid.Row="6" Content="+" Click="ClickAction"></Button>
+
+        <Button Name="Sqrt" Grid.Column="0" Grid.Row="2" Content="sqrt" Click="ClickSqrt"></Button>
+        <Button Name="Pow" Grid.Column="1" Grid.Row="2" Content="pow" Click="ClickPow"></Button>
+        <Button Name="Erase" Grid.Column="2" Grid.Row="2" Content="&lt;-" Click="ClickBack"></Button>
+        <Button Name="Procent" Grid.Column="3" Grid.Row="2" Content="%" Click="ClickAction"></Button>
+
+        <Button Name="Minus" Grid.Column="0" Grid.Row="8" Content="+/-" Click="ClickMinus"></Button>
+        <Button Grid.Column="1" Grid.Row="8" Content="=" Grid.ColumnSpan="3" Click="ClickEqual"></Button>
+    </Grid>
+</Window>
