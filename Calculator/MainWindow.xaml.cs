@@ -125,13 +125,30 @@ namespace Calculator
                 {
                     if (reg.Match(Display.Text).Length > 0) // if we work with the second number
                     {
-                        if (!(Display.Text[Display.Text.Length-1] == ' '))
+                        if (Display.Text[Display.Text.Length - 2] == '-' && Display.Text[Display.Text.Length - 3] == ' ')
+                        {
+                            Display.Text = Display.Text.Substring(0, Display.Text.Length - 3) + " 0";
+                        }
+                        if (!(Display.Text[Display.Text.Length - 2] == ' '))
                         {
                             Display.Text = Display.Text.Substring(0, Display.Text.Length - 1);
+                        }
+                        else
+                        {
+                            Display.Text = Display.Text.Substring(0, Display.Text.Length - 1) + "0";
+                        }
+                        if (Display.Text.Substring(Display.Text.LastIndexOf(" ") + 1).Contains(','))
+                        {
+                            Comma.IsEnabled = false;
+                        }
+                        else
+                        {
+                            Comma.IsEnabled = true;
                         }
                     }
                     else
                     {
+                        CheckComma();
                         Display.Text = Display.Text.Substring(0, Display.Text.Length - 1);
                     }
                 }

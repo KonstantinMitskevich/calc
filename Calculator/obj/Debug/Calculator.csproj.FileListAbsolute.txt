@@ -11,3 +11,16 @@ C:\Users\Exim\Documents\Visual Studio 2013\Projects\WPF\Calculator\Calculator\ob
 C:\Users\Exim\Documents\Visual Studio 2013\Projects\WPF\Calculator\Calculator\obj\Debug\Calculator.exe
 C:\Users\Exim\Documents\Visual Studio 2013\Projects\WPF\Calculator\Calculator\obj\Debug\Calculator.pdb
 C:\Users\Exim\Documents\Visual Studio 2013\Projects\WPF\Calculator\Calculator\obj\Debug\Calculator.csprojResolveAssemblyReference.cache
+C:\Users\USER\Source\Repos\calc\Calculator\bin\Debug\Calculator.exe.config
+C:\Users\USER\Source\Repos\calc\Calculator\obj\Debug\Calculator.exe
+C:\Users\USER\Source\Repos\calc\Calculator\obj\Debug\Calculator.pdb
+C:\Users\USER\Source\Repos\calc\Calculator\bin\Debug\Calculator.exe
+C:\Users\USER\Source\Repos\calc\Calculator\bin\Debug\Calculator.pdb
+C:\Users\USER\Source\Repos\calc\Calculator\obj\Debug\Calculator.csprojResolveAssemblyReference.cache
+C:\Users\USER\Source\Repos\calc\Calculator\obj\Debug\MainWindow.baml
+C:\Users\USER\Source\Repos\calc\Calculator\obj\Debug\MainWindow.g.cs
+C:\Users\USER\Source\Repos\calc\Calculator\obj\Debug\App.g.cs
+C:\Users\USER\Source\Repos\calc\Calculator\obj\Debug\Calculator_MarkupCompile.cache
+C:\Users\USER\Source\Repos\calc\Calculator\obj\Debug\Calculator.g.resources
+C:\Users\USER\Source\Repos\calc\Calculator\obj\Debug\Calculator.Properties.Resources.resources
+C:\Users\USER\Source\Repos\calc\Calculator\obj\Debug\Calculator.csproj.GenerateResource.Cache
